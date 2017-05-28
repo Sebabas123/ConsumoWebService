@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ipn.fernandodanielcastillobarron.a5im7.consumirwebservice.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="21dp"
+        android:text="Antes de ingresar, debes pasar por el login"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <EditText
+        android:id="@+id/usr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="107dp"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/psw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="189dp"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/usr"
+        android:layout_alignLeft="@+id/usr"
+        android:layout_alignStart="@+id/usr" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="299dp"
+        android:layout_marginTop="38dp"
+        android:onClick="ingresar"
+        android:layout_below="@+id/olvidaste"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/olvidaste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olvidaste tu usuario o contraseña?"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="257dp"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/psw"
+        android:layout_alignLeft="@+id/psw"
+        android:layout_alignStart="@+id/psw" />
+
+</RelativeLayout>

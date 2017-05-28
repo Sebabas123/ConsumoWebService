@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fernando Daniel Castillo Barrón - Consumo de Web Services</string>
+    <string-array name="monedas">
+        <item>MXN (Peso Mexicano)</item>
+        <item>USD (Dolar Americano)</item>
+        <item>EUR (Euro)</item>
+        <item>GBP (Libra Esterlina)</item>
+        <item>AUD (Dolar Australiano)</item>
+        <item>CAD (Dolar Canadiense)</item>
+    </string-array>
+</resources>
