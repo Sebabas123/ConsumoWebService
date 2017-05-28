@@ -1,18 +1,6 @@
 package ipn.fernandodanielcastillobarron.a5im7.consumirwebservice;
-/*
-AUTOR: Fernando Daniel Castillo Barron (C) Abril 2017
-VERSIÓN: 1.0
 
-DESCRIPCIÓN: Programa que ejemplifica el consumo de web services SOAP y RESTful
 
-OBSERVACIONES:
-El programa usa un login, tiene una calculadora y convierte divisas
-
-COMPILACIÓN: se compila en tiempo de ejecucion.
-EJECUCIÓN: se ejecuta desde el IDE de Android Studio con las teclas shift + F10.  (En Windows) - ./programa (En Linux)
-*/
-
-//LIBRERIAS
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AlertDialog;
